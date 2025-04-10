@@ -1,10 +1,6 @@
-database = "progetto_industriale"  # Sostituisci con il tuo database
-user = "admin"  # Sostituisci con il tuo utente
-password = "adminpassword"  # Sostituisci con la tua password
-host = "localhost"  # Sostituisci con l'host del tuo database
-port = "5432"  # Sostituisci con la port del tuo database
-
-datatype = 0 # 0 = CSV  1 = JSON
-dataflow = '122_54'
-filter = '...ITC3+ITC31+ITC32+ITC33+ITC34.......' 
-timeframe = 'startPeriod=2016-01-01'
+database = "your_database" # Replace with your database
+user = "your_username" # Replace with your username
+password = "your_password" # Replace with your password
+host = "your_host" # Replace with your database host
+port = "your_port" # Replace with your database port
+SearchID = "ITC3" # Search ID for Liguria
