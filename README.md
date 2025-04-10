@@ -9,3 +9,4 @@ The processed data can be saved back to the database or exported as CSV files.
   password = "your_password"  # Replace with your password<br>
   host = "your_host"  # Replace with your database host<br>
   port = "your_port"  # Replace with your database port<br>
+  SearchID = "ITC3" # Search ID for Liguria
