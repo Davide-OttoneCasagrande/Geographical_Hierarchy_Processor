@@ -142,7 +142,7 @@ def add_coordinates(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def main(pathSQL_request: str) -> None:
-    searchId = 'ITC' # Starting search string
+    searchId = os.getenv('SearchID') # Starting search string
     df = fetch_data_from_db(pathSQL_request)
     df = process_geographic_hierarchy(df,searchId)
     
