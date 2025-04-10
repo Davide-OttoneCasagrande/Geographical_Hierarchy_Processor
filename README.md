@@ -3,6 +3,11 @@ The **Geographical_Hierarchy_Processor** is a Python script designed to process 
 It connects to a PostgreSQL database, fetches data using SQL queries, processes hierarchical relationships, and enriches the data with latitude and longitude using the OpenStreetMap Nominatim API.<br>
 The processed data can be saved back to the database or exported as CSV files.
 
+# How to use this tool:
+  - download the tool
+  - complete the .env
+  - launch the .py
+
 # .env file format
   database = "your_database"  # Replace with your database<br>
   user = "your_username"  # Replace with your username<br>
